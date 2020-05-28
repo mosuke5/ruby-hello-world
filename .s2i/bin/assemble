@@ -62,4 +62,5 @@ set +e
 [[ -d ./db ]] && chgrp -R 0 ./db && chmod -R g+rw ./db
 set -e
 
+unset MYVAL
 echo "---> CUSTOM S2I ASSEMBLE COMPLETE"
